@@ -1738,6 +1738,81 @@
     "reminders": [],
     "setup": false,
     "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees."
-  }
+  },
+  {
+	"id": "wizard",
+	"image": "https://wiki.bloodontheclocktower.com/images/b/b5/Icon_wizard.png",
+	"edition": "experimental",
+	"firstnight": 0,
+	"firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": ["Wish granted"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Wizard",
+    "team": "minion",
+    "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
+},
+{
+	"id": "hatter",
+	"image": "https://wiki.bloodontheclocktower.com/images/4/44/Icon_hatter.png",
+	"edition": "experimental",
+	"firstnight": 0,
+	"firstNightReminder": "",
+    "otherNight": 70,
+    "otherNightReminder": "If the Hatter dies, during that night, wake the Minions and Demon. Each player either shakes their head no or points to another character of the same type as their current character. If a second player would end up with the same character as another player, shake your head no and gesture for them to choose again. Change each player to the character they chose. ",
+    "reminders": ["Tea party tonight"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Hatter",
+    "team": "outsider",
+    "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
+},
+{
+	"id": "xaan",
+	"image": "https://wiki.bloodontheclocktower.com/images/0/0c/Icon_xaan.png",
+	"edition": "experimental",
+	"firstnight": 17,
+	"firstNightReminder": "Place the Xaan 'Night 1' reminder. If its night X, all townsfolk are poisoned.",
+    "otherNight": 7,
+    "otherNightReminder": "Remove the previous Xaan reminder and at the next one. If its night X, all townsfolk are poisoned.",
+    "reminders": ["Night 1","Night 2","Night 3","Night 4"],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "Xaan",
+    "team": "demon",
+    "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]"
+},
+{
+	"id": "kazali",
+	"image": "https://wiki.bloodontheclocktower.com/images/3/3c/Icon_kazali.png",
+	"edition": "experimental",
+	"firstnight": 1,
+	"firstNightReminder": "Place the Xaan 'Night 1' reminder. If its night X, all townsfolk are poisoned.",
+    "otherNight": 24,
+    "otherNightReminder": "The Kazali points to a player. That player dies.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "Kazali",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]"
+},
+{
+	"id": "lordoftyphon",
+	"image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
+	"edition": "experimental",
+	"firstnight": 1,
+	"firstNightReminder": "Wake the appropriate number of players directly clockwise and counter-clockwise from the Lord of Typhon. Show each of these players a unique Minion token, and give a thumbs down. Replace these players’ good character tokens with these Minion tokens and put these players to sleep. Then, do the Minion Info and Demon Info steps as normal.",
+    "otherNight": 24,
+    "otherNightReminder": "The Lord of Typhon points to a player. That player dies.",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "Lord of Typhon",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]"
+}
 ]
 
